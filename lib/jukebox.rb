@@ -65,7 +65,7 @@ songs = [
   def run(input)
     puts "Please enter a command:"
     input = gets.strip 
-    while 1 
+    while 1 do 
     if input == 'help' 
       help() 
     elsif input == 'list'
@@ -74,7 +74,9 @@ songs = [
       play(songs) 
     elsif input == 'exit' 
       exit_jukebox() 
+      break 
     end 
+  end 
   end
 
 # if input.to_i == 1 || input == "1901"
