@@ -78,7 +78,7 @@ songs = [
     #   exit_jukebox() 
     #   looper = 1
     # end 
-  end 
+  # end 
   end
 
 # if input.to_i == 1 || input == "1901"
