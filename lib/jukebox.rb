@@ -65,6 +65,7 @@ songs = [
   def run(input)
     puts "Please enter a command:"
     input = gets.strip 
+    while 1 
     if input == 'help' 
       help() 
     elsif input == 'list'
