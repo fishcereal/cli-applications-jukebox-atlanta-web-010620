@@ -67,18 +67,18 @@ songs = [
     input = gets.strip 
     looper = 0 
     
-    # while looper!=1 do 
-    # if input == 'help' 
-    #   help() 
-    # elsif input == 'list'
-    #   list(songs) 
-    # elsif input == 'play'
-    #   play(songs) 
-    # elsif input == 'exit' 
-    #   exit_jukebox() 
-    #   looper = 1
-    # end 
-  # end 
+    while looper!=1 do 
+    if input == 'help' 
+      help() 
+    elsif input == 'list'
+      list(songs) 
+    elsif input == 'play'
+      play(songs) 
+    elsif input == 'exit' 
+      exit_jukebox() 
+      looper = 1
+    end 
+  end 
   end
 
 # if input.to_i == 1 || input == "1901"
