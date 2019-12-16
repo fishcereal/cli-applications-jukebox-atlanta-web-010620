@@ -63,7 +63,7 @@ songs = [
   end
   
   def run(input)
-    
+    puts Please enter a command:"
   end
 
 # if input.to_i == 1 || input == "1901"
