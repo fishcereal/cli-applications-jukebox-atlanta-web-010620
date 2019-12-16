@@ -75,8 +75,8 @@ songs = [
     elsif input == 'play'
       play(songs) 
     elsif input == 'exit' 
-      exit_jukebox() 
-      looper = 1
+      return exit_jukebox() 
+      
     end 
   end 
   end
