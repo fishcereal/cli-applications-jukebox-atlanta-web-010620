@@ -72,7 +72,7 @@ songs = [
     elsif input == 'play'
       play(songs) 
     elsif input == 'exit' 
-      exit() 
+      exit_jukebox() 
     end 
   end
 
