@@ -65,6 +65,13 @@ songs = [
   def run(input)
     puts "Please enter a command:"
     input = gets.strip 
+    if input == 'help' 
+      help() 
+    elsif input == 'list'
+      list(songs) 
+    elsif input == 'play'
+      play(songs) 
+    end 
   end
 
 # if input.to_i == 1 || input == "1901"
