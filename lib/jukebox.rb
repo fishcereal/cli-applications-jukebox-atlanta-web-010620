@@ -62,7 +62,7 @@ songs = [
     puts "Goodbye"
   end
   
-  def run(input)
+  def run(songs_list)
     puts "Please enter a command:"
     looper = 0 
     
@@ -71,9 +71,9 @@ songs = [
     if input == 'help' 
       help() 
     elsif input == 'list'
-      list(songs) 
+      list(songs_list) 
     elsif input == 'play'
-      play(songs) 
+      play(songs_list) 
     elsif input == 'exit' 
       return exit_jukebox() 
       
