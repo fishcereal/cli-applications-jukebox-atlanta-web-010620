@@ -64,6 +64,7 @@ songs = [
   
   def run(input)
     puts "Please enter a command:"
+    input = gets.strip 
   end
 
 # if input.to_i == 1 || input == "1901"
