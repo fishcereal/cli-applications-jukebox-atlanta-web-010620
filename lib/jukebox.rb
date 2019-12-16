@@ -66,17 +66,18 @@ songs = [
     puts "Please enter a command:"
     input = gets.strip 
     looper = 0 
-    while looper!=1 do 
-    if input == 'help' 
-      help() 
-    elsif input == 'list'
-      list(songs) 
-    elsif input == 'play'
-      play(songs) 
-    elsif input == 'exit' 
-      exit_jukebox() 
-      looper = 1
-    end 
+    
+    # while looper!=1 do 
+    # if input == 'help' 
+    #   help() 
+    # elsif input == 'list'
+    #   list(songs) 
+    # elsif input == 'play'
+    #   play(songs) 
+    # elsif input == 'exit' 
+    #   exit_jukebox() 
+    #   looper = 1
+    # end 
   end 
   end
 
